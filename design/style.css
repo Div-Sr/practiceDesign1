@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'HankenGrotesk';
+    src: url(../assets/fonts/static/HankenGrotesk-Bold.ttf);
+}
+@font-face {
+    font-family: 'HankenGrotesk-Extra';
+    src: url(../assets/fonts/static/HankenGrotesk-ExtraBold.ttf);
+}
+
+body{
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.container{
+    display: flex;
+    margin: auto;
+    margin-top: 6%;
+    width: 50%;
+    background-color: white;
+    border-radius: 0.93rem;
+    height: 22rem;
+    width: 35rem;
+}
+
+.sub-container{
+    justify-content:flex-start;
+    align-items: center;
+    background-color: hsl(252, 100%, 67%);
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-radius: 1rem;
+}
+
+.result-left{
+    font-family: HankenGrotesk;
+    font-size: 1.25rem;
+    color: rgba(248, 236, 214, 0.829);
+}
+
+.score{
+    display: flex;
+    /* justify-content: center; */
+    background-color: hsla(256, 72%, 46%, 1);
+    height: 8rem;
+    width: 8rem;
+    border-radius: 100%;
+}
+
+.sub-score-1{
+    margin-top: 30%;
+    margin-block-start: 0.8em;
+    margin-block-end: 0em;
+    color: white;
+    font-family: HankenGrotesk-Extra;
+    font-size: 3rem;
+    margin-left: 2.2rem;
+}
+
+.sub-score-2{
+    margin-top: 82%;
+}
