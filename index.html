@@ -1,28 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png"/>
-  <title>Frontend Mentor | Results summary component</title>
-  <link rel="stylesheet" href="./design/style.css"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+  <title>Frontend Mentor | Result Summary</title>
+  <link rel="stylesheet" href="./design/style.css" />
 </head>
+
 <body>
   <div class="container">
     <div class="sub-container">
       <h5 class="result-left">Your Result</h5>
       <div class="score">
-        <p class="sub-score-1">76</p>
-        <p class="sub-score-2">of 100</p>
+        <span class="sub-score-1">76</span>
+        <span class="sub-score-2">of 100</span>
+      </div>
+      <div class="div">
+        <h3 class="great">Great</h3>
+        <span class="desc">You have scored higher than 65% of the students who have taken these tests</span>
+      </div>
+    </div>
+    <div class="summary">
+      <h3>Summary</h3>
+      <div id="myContainer">
+        <span id="reaction" class="element"><img src="assets/images/icon-reaction.svg" alt="image" class="img"><span>Reaction</span><div><b>80</b>&nbsp;&nbsp;/&nbsp;100</div></span>
+        <span id="memory" class="element"><img src="assets/images/icon-memory.svg" alt="image" class="img"><span>Memory</span><div><b>80</b>&nbsp;&nbsp;/&nbsp;100</div></span>
+        <span id="verbal" class="element"><img src="assets/images/icon-verbal.svg" alt="image" class="img"><span>Verbal</span><div><b>80</b>&nbsp;&nbsp;/&nbsp;100</div></span>
+        <span id="visual" class="element"><img src="assets/images/icon-visual.svg" alt="image" class="img"><span>Visual</span><div><b>80</b>&nbsp;&nbsp;/&nbsp;100</div></span>
+        <button class="btn" type="button">Continue</button>
       </div>
     </div>
   </div>
-  <footer style="text-align: center;margin-top: 3%;">
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Divyansh Sharma</a>.
   </div>
+  <footer style="text-align: center;margin-top: 3%;">
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Divyansh Sharma</a>.
+    </div>
   </footer>
 </body>
+
 </html>
